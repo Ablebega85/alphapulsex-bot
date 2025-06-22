@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: alphapulsex-bot
+    env: python
+    buildCommand: ""
+    startCommand: python main.py
+    autoDeploy: true
